@@ -1,3 +1,4 @@
+# 27930
 import sys
 input = lambda: sys.stdin.readline().rstrip()
 

@@ -1,5 +1,8 @@
 # prim's algorithm for minimum spanning tree
 from heapq import heappop, heappush
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+
 
 def solve():
   vertex, edge = map(int, input().split())

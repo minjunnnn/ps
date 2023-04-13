@@ -4,6 +4,7 @@ import sys
 input = lambda: sys.stdin.readline().rstrip()
 
 
+
 def solve():
   vertex, edge = map(int, input().split())
   graph = [[] for i in range(vertex+1)]

@@ -24,7 +24,6 @@ def solve():
         else:
             prefixSum.append(prefixSum[-1] + L[i])
 
-
     for i in range(0, n - 1):
         l = i + 1
         r = n - 1

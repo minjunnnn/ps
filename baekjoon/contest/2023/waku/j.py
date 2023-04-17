@@ -7,7 +7,6 @@ def solve():
     n, m = map(int, input().split())
     A = [*map(int, input().split())]
     B = [int(input()) for i in range(n)]
-
     prefixSum = [0]
     for i in range(m):
         prefixSum.append(prefixSum[-1] + A[i])
